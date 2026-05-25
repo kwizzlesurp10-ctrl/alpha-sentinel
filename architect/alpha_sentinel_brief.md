@@ -24,7 +24,8 @@
 **Engineer Implementation Plan**:
 - Structure: `/alpha-sentinel/engineer/` containing `main.py`, `bot.py`, `config.yaml`, `requirements.txt`.
 - Libraries: `python-telegram-bot`, `httpx`, `pandas`, `sentiment-analysis-lib`.
-- Build Order: 1. Setup API client. 2. Build data ingestion loop. 3. Build anomaly detection logic. 4. Integrate Telegram bot. 5. Build Meta-Reflection loop: Log performance metrics -> Compare against benchmarks -> Generate patch for `system_instructions.md` if improvement needed.
+- Integration: Telegram Bot is being integrated with `main.py` ingestion loop to provide real-time alerts.
+- Build Order: 1. Setup API client. 2. Build data ingestion loop. 3. Build anomaly detection logic. 4. Integrate Telegram bot (In Progress). 5. Meta-Reflection loop deployed and operational.
 - Test Strategy: Integration testing on testnet/sandbox API data.
 
 **Reviewer Checklist**:

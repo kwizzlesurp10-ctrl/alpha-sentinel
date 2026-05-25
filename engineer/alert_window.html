@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENTINEL ALERT</title>
+    <style>
+        body { margin: 0; font-family: sans-serif; background: #000; display: flex; align-items: center; justify-content: center; height: 100vh; color: #fff; }
+        .alert-box { border: 2px solid #ff3e3e; padding: 2rem; background: #1a0000; text-align: center; box-shadow: 0 0 20px #ff3e3e; }
+        h1 { color: #ff3e3e; }
+    </style>
+</head>
+<body>
+    <div class="alert-box">
+        <h1>CRITICAL ALERT</h1>
+        <p id="error-msg">Monitoring error detected in Alpha Sentinel.</p>
+        <button onclick="window.close()">Dismiss</button>
+    </div>
+    <script>
+        // In a real environment, this would listen to a local websocket or file watcher.
+        // For CLI-agent trigger, we simulate a popup mechanism.
+    </script>
+</body>
+</html>
