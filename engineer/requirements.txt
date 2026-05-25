@@ -1,0 +1,7 @@
+# Requirements
+python-telegram-bot
+httpx
+pandas
+# Meta-Reflection Logic
+psutil
+gitpython
