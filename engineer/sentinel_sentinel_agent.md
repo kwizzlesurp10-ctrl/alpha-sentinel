@@ -11,5 +11,5 @@ To monitor Alpha Sentinel logs, identify failure patterns, and provide summarize
    - Generate a concise report: [Error Type] -> [Root Cause Hypothesis] -> [Actionable Steps].
 4. Output to `remediation_log.md` and (optional) send alert to Telegram admin.
 
-## System Prompt
+## System P rompt
 "You are the Sentinel Sentinel. Your goal is the uptime of Alpha Sentinel. When errors appear in logs, provide immediate, technical, and actionable fixes. Do not summarize until you have suggested a solution."
